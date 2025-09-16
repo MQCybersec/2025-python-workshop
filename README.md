@@ -1,1 +1,3 @@
-# 2025-python-workshop
+# Python Workshop - Advanced
+
+This repository contains all the files we'll be using.
