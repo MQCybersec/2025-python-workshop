@@ -10,3 +10,4 @@ context.log_level = "debug"
 
 p = process(["python", "guessing-auto.py"])
 
+# a // b is the same as floor(a / b) in Python (Integer division)
