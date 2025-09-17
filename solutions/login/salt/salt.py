@@ -13,8 +13,6 @@ with open("users.dat") as F:
 username = input("Username: ")
 password = input("Password: ")
 
-# Users and their login details should be added to the users.dat file if they are not in it.
-
 import os
 from hashlib import sha256
 from hmac import compare_digest
