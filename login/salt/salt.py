@@ -4,7 +4,10 @@
 # hash(salt || message)
  
 # ...where || means concatenate. These are designed to protect against rainbow table attacks and
-# to ensure uniqueness of each hash.
+# to ensure uniqueness of each hash. For example, two users having the same password means that their
+# password hashes will also be the same. Someone can then tell that these two users have the same password.
+
+# If the passwords are salted (RANDOMLY) before hashing, two users with the same password will have COMPLETELY DIFFERENT hashes.
 
 # You can embed the salt in your message however you want: as long as it is consistent. Prepend, append, or interleave
 
@@ -14,6 +17,7 @@
 
 # You've upscaled! You need to store and load your information in a file (users.dat) now! 
 # It is up to you how you want to store the users and data in users.dat
+# A suggested format could be something like username.salt.hash
 users = None
 
 username = input("Username: ")

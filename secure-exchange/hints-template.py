@@ -1,4 +1,6 @@
 from random import randint
+# This library can be installed via the package name "pycryptodome"
+# e.g. pip install pycryptodome
 from Crypto.Cipher import AES
 from Crypto.Util.number import long_to_bytes
 import base64
