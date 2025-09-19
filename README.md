@@ -17,5 +17,14 @@ A bit of an extension exercise, using several encodings, functions and libraries
 ## Base 64
 Also extension: implement base64 encoding (sort of) from scratch.
 
+## csv-to-json
+Contains the temperature.csv file for the parsing data section of the workshop.
+
+## Converting-Files
+Source code for parsing data section of the workshop
+
+## Grid-System
+Source code for Bonus 2D Game section of the workshop 
+
 # Solutions
 Solutions to all the challenges!
